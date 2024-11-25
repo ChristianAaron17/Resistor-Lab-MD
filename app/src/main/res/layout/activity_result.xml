@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".view.result.ResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgResistor"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/baseline_insert_photo_24"/>
+
+        <TextView
+            android:id="@+id/tvSuccessMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="@string/success_message"
+            android:textColor="@color/navy"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvResistorType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/resistor_type"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/colorCircle1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/baseline_circle_24"
+                android:contentDescription="@string/color_circle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <TextView
+                android:id="@+id/colorName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@id/colorCircle1"
+                android:text="@string/color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/colorCircle1"
+                app:layout_constraintTop_toTopOf="@+id/colorCircle1" />
+
+            <TextView
+                android:id="@+id/colorValue1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_toEndOf="@id/colorCircle1"
+                android:text="@string/band1"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@+id/colorCircle1"
+                app:layout_constraintTop_toBottomOf="@+id/colorName1" />
+
+            <ImageView
+                android:id="@+id/colorCircle2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/baseline_circle_24"
+                android:contentDescription="@string/color_circle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/colorValue1" />
+
+            <TextView
+                android:id="@+id/colorName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@id/colorCircle2"
+                android:text="@string/color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/colorCircle2"
+                app:layout_constraintTop_toTopOf="@+id/colorCircle2" />
+
+            <TextView
+                android:id="@+id/colorValue2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_toEndOf="@id/colorCircle2"
+                android:text="@string/band2"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@+id/colorCircle2"
+                app:layout_constraintTop_toBottomOf="@+id/colorName2" />
+
+            <ImageView
+                android:id="@+id/colorCircle3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/baseline_circle_24"
+                android:contentDescription="@string/color_circle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/colorValue2" />
+
+            <TextView
+                android:id="@+id/colorName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@id/colorCircle3"
+                android:text="@string/color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/colorCircle3"
+                app:layout_constraintTop_toTopOf="@+id/colorCircle3" />
+
+            <TextView
+                android:id="@+id/colorValue3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_toEndOf="@id/colorCircle3"
+                android:text="@string/band3"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@+id/colorCircle3"
+                app:layout_constraintTop_toBottomOf="@+id/colorName3" />
+
+            <ImageView
+                android:id="@+id/colorCircle4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/baseline_circle_24"
+                android:contentDescription="@string/color_circle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/colorValue3" />
+
+            <TextView
+                android:id="@+id/colorName4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_toEndOf="@id/colorCircle4"
+                android:text="@string/color"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/colorCircle4"
+                app:layout_constraintTop_toTopOf="@+id/colorCircle4" />
+
+            <TextView
+                android:id="@+id/colorValue4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_toEndOf="@id/colorCircle4"
+                android:text="@string/band4"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@+id/colorCircle4"
+                app:layout_constraintTop_toBottomOf="@+id/colorName4" />
+
+            <TextView
+                android:id="@+id/tvResistorValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="5k6 Ω ± 5%"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="24sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/colorValue4" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Resistor Lab</string>
+    <string name="title_login_page">Ready to learn?</string>
+    <string name="message_login_page">Please enter your data first</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="create">Don’t have account? Create</string>
+    <string name="title_signup_page">Please complete your personal data first</string>
+    <string name="name">Name</string>
+    <string name="signup">Register</string>
+    <string name="title_welcome_page">Welcome to Resistor Lab!</string>
+    <string name="message_welcome_page">An innovative learning application that makes it easier for users to understand and calculate resistor values.</string>
+    <string name="start">Start</string>
+    <string name="homepage">Homepage</string>
+    <string name="message_for_scan">Scan and identify the resistor</string>
+    <string name="resistor_material">Resistor Material</string>
+    <string name="image_of_resistors">Image of resistors</string>
+    <string name="material">Material</string>
+    <string name="tips">Tips</string>
+    <string name="scanning_tips">Scanning Tips</string>
+    <string name="color_codes_tips">Tips for memorizing color codes</string>
+    <string name="description_tips1">Here are some tips to help improve the accuracy and usability of the scanning function:</string>
+    <string name="description_tips2">Remember the order of the colors of the rainbow</string>
+    <string name="logout_button">Logout button</string>
+    <string name="scan_detect">Image of scan detect</string>
+    <string name="image_of_arrow">Image of arrow</string>
+    <string name="color_wheel">Image of color wheel</string>
+    <string name="capture_button_description">Capture image</string>
+    <string name="gallery_button_description">Gallery</string>
+    <string name="result_button_description">Result button</string>
+    <string name="success_message">Hurray, we identified the resistor!</string>
+    <string name="resistor_type">Detected Resistor</string>
+    <string name="color_circle">Color Circle</string>
+    <string name="color">Color</string>
+    <string name="band1">First significant figure = %s</string>
+    <string name="band2">Second significant figure = %s</string>
+    <string name="band3">Multiplier = 10^%s</string>
+    <string name="band4">Tolerance = ± %s%</string>
+</resources>
